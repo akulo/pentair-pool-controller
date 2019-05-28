@@ -20,6 +20,9 @@ Here is the view of AQUALINK® POWER CENTERS and Pool Controller Altelix enclosu
 1. [AQUALINK® POWER CENTERS Model 6614-LD](https://www.jandy.com/en/products/controls/system-components/power-centers/aqualink-power-center)
 1. [IntelliFlo® VSF Variable Speed Pump](https://www.pentair.com/en/products/pool-spa-equipment/pool-pumps/intelliflo_vsf.html)
 1. [MASTERTEMP HEATER](https://www.pentair.com/en/products/pool-spa-equipment/pool-heaters/mastertemp_heater/sku/460737.html)
+1. [MEAN WELL MDR-60-24 DIN-Rail Power Supply 24V 2.5 Amp 60W](https://www.amazon.com/gp/product/B005T6OBFU)
+1. [DIN Rail Power Supplies 20W 12V 1.67A](https://www.amazon.com/gp/product/B00MEKD6X2)
+1. [MEAN WELL MDR-20-5 AC to DC DIN-Rail Power Supply 5V 3 Amp 15W](https://www.amazon.com/gp/product/B005T6RBSO)
 
 ### In future I am planning
 
