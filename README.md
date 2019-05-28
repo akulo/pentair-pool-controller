@@ -15,6 +15,10 @@ It is powered by RaspberyPi running NodeJS, Node-Red, Node Red Dashboard coupled
 ![Pentair Pool Controller](/images/terminal.png)
 ![Pentair Pool Controller](/images/intellicom.png)
 
+### View of Intermatic PE24VA Valve Actuators
+![Pentair Pool Controller](/images/valve-1.png)
+![Pentair Pool Controller](/images/valve-2.png)
+
 ### View of sub-panel with breakers
 ![Pentair Pool Controller](/images/high-voltage.png)
 ![Pentair Pool Controller](/images/relays.png)
