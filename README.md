@@ -4,10 +4,10 @@ For last couple of years, I have been looking for good automation system that I 
 
 It is powered by RaspberyPi running NodeJS, Node-Red, Node Red Dashboard coupled with 16 relays module and IntelliComm® II Interface Adapter. I really could have implemented software solution instead of overpriced adapter but I decided to focus on building hardware first. 
 
-###Here is the view of AQUALINK® POWER CENTERS and Pool Controller Altelix enclosure:
+### Here is the view of AQUALINK® POWER CENTERS and Pool Controller Altelix enclosure:
 ![Pentair Pool Controller](/images/pool-controller.png)
 
-###View of assembled controller
+### View of assembled controller
 ![Pentair Pool Controller](/images/board.png)
 ![Pentair Pool Controller](/images/raspberry-pi.png)
 ![Pentair Pool Controller](/images/relay-module.png)
@@ -15,12 +15,12 @@ It is powered by RaspberyPi running NodeJS, Node-Red, Node Red Dashboard coupled
 ![Pentair Pool Controller](/images/terminal.png)
 ![Pentair Pool Controller](/images/intellicom.png)
 
-###View of sub-panel with breakers
+### View of sub-panel with breakers
 ![Pentair Pool Controller](/images/high-voltage.png)
 ![Pentair Pool Controller](/images/relays.png)
 ![Pentair Pool Controller](/images/power-supply.png)
 
-###Breadboard and Schematic
+### Breadboard and Schematic
 ![Pentair Pool Breadboard](/Fritzing/Pool-Controller_bb.png)
 ![Pentair Pool Schematic](/Fritzing/Pool-Controller_schem.png)
 
