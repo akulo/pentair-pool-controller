@@ -20,6 +20,17 @@ It is powered by RaspberyPi running NodeJS, Node-Red, Node Red Dashboard coupled
 ![Pentair Pool Controller](/images/relays.png)
 ![Pentair Pool Controller](/images/power-supply.png)
 
+### Tempreture Sensors Assembly
+I used DS18b20 Waterproof Temperature Sensors that I glued with [J-B Weld](https://www.homedepot.com/p/J-B-Weld-25-ml-ClearWeld-Quick-Set-Epoxy-Syringe-50112/204986141) epoxy to 1/2 in. MIP x 1/4 in. FIP Lead-Free Brass Pipe Hex Bushing and 1/4 in. x 1/4 in. MIP Lead-Free Brass Hose Barb Adapter. 
+
+![Pentair Pool Controller Tempreture Sensor](/images/temp-sensor.png)
+![Pentair Pool Controller Tempreture Sensor](/images/temp-sensor-2.png)
+
+Parts:
+1. [1/2 in. MIP x 1/4 in. FIP Lead-Free Brass Pipe Hex Bushing](https://www.homedepot.com/p/Everbilt-1-2-in-MIP-x-1-4-in-FIP-Lead-Free-Brass-Pipe-Hex-Bushing-802639/207176802)
+1. [1/4 in. x 1/4 in. MIP Lead-Free Brass Hose Barb Adapter](https://www.homedepot.com/p/Everbilt-1-2-in-MIP-x-1-4-in-FIP-Lead-Free-Brass-Pipe-Hex-Bushing-802639/207176802)
+1. [J-B Weld](https://www.homedepot.com/p/J-B-Weld-25-ml-ClearWeld-Quick-Set-Epoxy-Syringe-50112/204986141)
+
 ### Breadboard and Schematic
 ![Pentair Pool Breadboard](/Fritzing/Pool-Controller_bb.png)
 ![Pentair Pool Schematic](/Fritzing/Pool-Controller_schem.png)
