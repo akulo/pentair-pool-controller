@@ -1,0 +1,1056 @@
+[
+    {
+        "id": "d5668fa4.008f6",
+        "type": "tab",
+        "label": "Pump",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "9867aa8b.1b4148",
+        "type": "tab",
+        "label": "Heater",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "8e8224be.d013d8",
+        "type": "tab",
+        "label": "Valves",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "6c457c6c.7bba54",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "f2336414.55b2c8",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Pool Controller",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "d1d7a2b3.4e57a",
+        "type": "ui_group",
+        "z": "",
+        "name": "Pump",
+        "tab": "f2336414.55b2c8",
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "2dfd6457.030dac",
+        "type": "ui_group",
+        "z": "",
+        "name": "Heater",
+        "tab": "f2336414.55b2c8",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "21374f4d.e46ba",
+        "type": "ui_group",
+        "z": "",
+        "name": "Valves",
+        "tab": "f2336414.55b2c8",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "996805b1.e794e8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "2dfd6457.030dac",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b9d468e6.e578e8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "2dfd6457.030dac",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "4b7b7437.76c2cc",
+        "type": "ui_group",
+        "z": "8e8224be.d013d8",
+        "name": "Click",
+        "tab": "bdb59d89.d672e",
+        "order": 1,
+        "disp": true,
+        "width": "5"
+    },
+    {
+        "id": "bdb59d89.d672e",
+        "type": "ui_tab",
+        "z": "8e8224be.d013d8",
+        "name": "Home",
+        "icon": "link",
+        "order": 1
+    },
+    {
+        "id": "6cbca733.435c08",
+        "type": "ui_switch",
+        "z": "9867aa8b.1b4148",
+        "name": "Heater Pool",
+        "label": "Pool",
+        "tooltip": "",
+        "group": "2dfd6457.030dac",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "decouple": "false",
+        "topic": "swtich2",
+        "style": "",
+        "onvalue": "0",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "1",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "x": 250,
+        "y": 474,
+        "wires": [
+            [
+                "1e13d5f8.4251fa"
+            ]
+        ]
+    },
+    {
+        "id": "1af533ad.98ad9c",
+        "type": "rpi-gpio out",
+        "z": "9867aa8b.1b4148",
+        "name": "Heater Pool GPIO 05",
+        "pin": "29",
+        "set": true,
+        "level": "1",
+        "freq": "",
+        "out": "out",
+        "x": 839,
+        "y": 467,
+        "wires": []
+    },
+    {
+        "id": "9d3d3ab1.3c02a8",
+        "type": "ui_switch",
+        "z": "9867aa8b.1b4148",
+        "name": "Heater Spa",
+        "label": "Spa",
+        "tooltip": "",
+        "group": "2dfd6457.030dac",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "decouple": "false",
+        "topic": "",
+        "style": "",
+        "onvalue": "0",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "1",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "x": 250,
+        "y": 634,
+        "wires": [
+            [
+                "a67196a1.2e1b68",
+                "a153c71c.486f58"
+            ]
+        ]
+    },
+    {
+        "id": "849e99e.f127f68",
+        "type": "rpi-gpio out",
+        "z": "9867aa8b.1b4148",
+        "name": "Heater Spa GPIO 06",
+        "pin": "31",
+        "set": true,
+        "level": "1",
+        "freq": "",
+        "out": "out",
+        "x": 844,
+        "y": 628,
+        "wires": []
+    },
+    {
+        "id": "a67196a1.2e1b68",
+        "type": "debug",
+        "z": "9867aa8b.1b4148",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 517,
+        "y": 752,
+        "wires": []
+    },
+    {
+        "id": "1e13d5f8.4251fa",
+        "type": "function",
+        "z": "9867aa8b.1b4148",
+        "name": "send 1",
+        "func": "//const payload = msg.payload;\n//msg.payload = 1;\nreturn [msg, {payload: 1}]",
+        "outputs": 2,
+        "noerr": 0,
+        "x": 437,
+        "y": 474,
+        "wires": [
+            [
+                "f15a59bf.8ccaf8"
+            ],
+            [
+                "9d3d3ab1.3c02a8",
+                "849e99e.f127f68"
+            ]
+        ]
+    },
+    {
+        "id": "f15a59bf.8ccaf8",
+        "type": "delay",
+        "z": "9867aa8b.1b4148",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "800",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 619.5,
+        "y": 467,
+        "wires": [
+            [
+                "1af533ad.98ad9c"
+            ]
+        ]
+    },
+    {
+        "id": "a153c71c.486f58",
+        "type": "function",
+        "z": "9867aa8b.1b4148",
+        "name": "send 1",
+        "func": "//const payload = msg.payload;\n//msg.payload = 1;\nreturn [msg, {payload: 1}]",
+        "outputs": 2,
+        "noerr": 0,
+        "x": 434,
+        "y": 635,
+        "wires": [
+            [
+                "579219da.d7bf98"
+            ],
+            [
+                "6cbca733.435c08",
+                "1af533ad.98ad9c"
+            ]
+        ]
+    },
+    {
+        "id": "579219da.d7bf98",
+        "type": "delay",
+        "z": "9867aa8b.1b4148",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "800",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 613,
+        "y": 628,
+        "wires": [
+            [
+                "849e99e.f127f68"
+            ]
+        ]
+    },
+    {
+        "id": "bffe5b6.52c5da8",
+        "type": "ui_switch",
+        "z": "d5668fa4.008f6",
+        "name": "Pump Speed 1000 RPM",
+        "label": "Pump Speed 1000 RPM",
+        "tooltip": "",
+        "group": "d1d7a2b3.4e57a",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "decouple": "false",
+        "topic": "",
+        "style": "",
+        "onvalue": "0",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "1",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "x": 170,
+        "y": 133,
+        "wires": [
+            [
+                "4fb7991e.b7b9f8"
+            ]
+        ]
+    },
+    {
+        "id": "d7ada6ac.7121f8",
+        "type": "rpi-gpio out",
+        "z": "d5668fa4.008f6",
+        "name": "Pump Speed 1 GPIO 21",
+        "pin": "40",
+        "set": true,
+        "level": "1",
+        "freq": "",
+        "out": "out",
+        "x": 925,
+        "y": 116,
+        "wires": []
+    },
+    {
+        "id": "12a41d9e.d9bd12",
+        "type": "rpi-gpio out",
+        "z": "d5668fa4.008f6",
+        "name": "Pump Speed 2 GPIO 20",
+        "pin": "38",
+        "set": true,
+        "level": "1",
+        "freq": "",
+        "out": "out",
+        "x": 925,
+        "y": 254,
+        "wires": []
+    },
+    {
+        "id": "5fb8e136.02b82",
+        "type": "ui_switch",
+        "z": "d5668fa4.008f6",
+        "name": "Pump Speed 1500 RPM",
+        "label": "Pump Speed 1500 RPM",
+        "tooltip": "",
+        "group": "d1d7a2b3.4e57a",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "decouple": "false",
+        "topic": "",
+        "style": "",
+        "onvalue": "0",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "1",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "x": 168,
+        "y": 262,
+        "wires": [
+            [
+                "fa317934.fdeb68"
+            ]
+        ]
+    },
+    {
+        "id": "69280249.0088ec",
+        "type": "rpi-gpio out",
+        "z": "d5668fa4.008f6",
+        "name": "Pump Speed 3 GPIO 16",
+        "pin": "36",
+        "set": true,
+        "level": "1",
+        "freq": "",
+        "out": "out",
+        "x": 931,
+        "y": 388,
+        "wires": []
+    },
+    {
+        "id": "9cc19355.06156",
+        "type": "ui_switch",
+        "z": "d5668fa4.008f6",
+        "name": "Pump Speed 2400 RPM",
+        "label": "Pump Speed 2400 RPM",
+        "tooltip": "",
+        "group": "d1d7a2b3.4e57a",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "decouple": "false",
+        "topic": "",
+        "style": "",
+        "onvalue": "0",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "1",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "x": 176,
+        "y": 396,
+        "wires": [
+            [
+                "133ef8d1.811be7"
+            ]
+        ]
+    },
+    {
+        "id": "4785d965.90df78",
+        "type": "rpi-gpio out",
+        "z": "d5668fa4.008f6",
+        "name": "Pump Speed 4 GPIO 12",
+        "pin": "32",
+        "set": true,
+        "level": "1",
+        "freq": "",
+        "out": "out",
+        "x": 938,
+        "y": 544,
+        "wires": []
+    },
+    {
+        "id": "15e9e59e.459a4a",
+        "type": "ui_switch",
+        "z": "d5668fa4.008f6",
+        "name": "Pump Speed 3200 RPM",
+        "label": "Pump Speed 3200 RPM",
+        "tooltip": "",
+        "group": "d1d7a2b3.4e57a",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "decouple": "false",
+        "topic": "",
+        "style": "",
+        "onvalue": "0",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "1",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "x": 176,
+        "y": 550,
+        "wires": [
+            [
+                "ae5573cb.4f15"
+            ]
+        ]
+    },
+    {
+        "id": "4fb7991e.b7b9f8",
+        "type": "function",
+        "z": "d5668fa4.008f6",
+        "name": "Message Formater",
+        "func": "//const payload = msg.payload;\n//msg.payload = 1;\nreturn [msg, {payload: 1}]",
+        "outputs": 2,
+        "noerr": 0,
+        "x": 409,
+        "y": 133,
+        "wires": [
+            [
+                "cc92819b.8e77c"
+            ],
+            [
+                "12a41d9e.d9bd12",
+                "69280249.0088ec",
+                "4785d965.90df78",
+                "5fb8e136.02b82",
+                "9cc19355.06156",
+                "15e9e59e.459a4a"
+            ]
+        ]
+    },
+    {
+        "id": "cc92819b.8e77c",
+        "type": "delay",
+        "z": "d5668fa4.008f6",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "800",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 657.5,
+        "y": 115,
+        "wires": [
+            [
+                "d7ada6ac.7121f8"
+            ]
+        ]
+    },
+    {
+        "id": "fa317934.fdeb68",
+        "type": "function",
+        "z": "d5668fa4.008f6",
+        "name": "Message Formater",
+        "func": "//const payload = msg.payload;\n//msg.payload = 1;\nreturn [msg, {payload: 1}]",
+        "outputs": 2,
+        "noerr": 0,
+        "x": 406,
+        "y": 261,
+        "wires": [
+            [
+                "438b8677.e6ff18"
+            ],
+            [
+                "d7ada6ac.7121f8",
+                "69280249.0088ec",
+                "4785d965.90df78",
+                "bffe5b6.52c5da8",
+                "9cc19355.06156",
+                "15e9e59e.459a4a"
+            ]
+        ]
+    },
+    {
+        "id": "438b8677.e6ff18",
+        "type": "delay",
+        "z": "d5668fa4.008f6",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "800",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 652.5,
+        "y": 253,
+        "wires": [
+            [
+                "12a41d9e.d9bd12"
+            ]
+        ]
+    },
+    {
+        "id": "133ef8d1.811be7",
+        "type": "function",
+        "z": "d5668fa4.008f6",
+        "name": "Message Formater",
+        "func": "//const payload = msg.payload;\n//msg.payload = 1;\nreturn [msg, {payload: 1}]",
+        "outputs": 2,
+        "noerr": 0,
+        "x": 403,
+        "y": 395,
+        "wires": [
+            [
+                "81ce5942.177498"
+            ],
+            [
+                "4785d965.90df78",
+                "12a41d9e.d9bd12",
+                "d7ada6ac.7121f8",
+                "15e9e59e.459a4a",
+                "5fb8e136.02b82",
+                "bffe5b6.52c5da8"
+            ]
+        ]
+    },
+    {
+        "id": "81ce5942.177498",
+        "type": "delay",
+        "z": "d5668fa4.008f6",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "800",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 650.5,
+        "y": 388,
+        "wires": [
+            [
+                "69280249.0088ec"
+            ]
+        ]
+    },
+    {
+        "id": "ae5573cb.4f15",
+        "type": "function",
+        "z": "d5668fa4.008f6",
+        "name": "Message Formater",
+        "func": "//const payload = msg.payload;\n//msg.payload = 1;\nreturn [msg, {payload: 1}]",
+        "outputs": 2,
+        "noerr": 0,
+        "x": 398,
+        "y": 551,
+        "wires": [
+            [
+                "77ed5064.af3cb"
+            ],
+            [
+                "69280249.0088ec",
+                "12a41d9e.d9bd12",
+                "d7ada6ac.7121f8",
+                "9cc19355.06156",
+                "5fb8e136.02b82",
+                "bffe5b6.52c5da8"
+            ]
+        ]
+    },
+    {
+        "id": "77ed5064.af3cb",
+        "type": "delay",
+        "z": "d5668fa4.008f6",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "800",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 645.5,
+        "y": 544,
+        "wires": [
+            [
+                "4785d965.90df78"
+            ]
+        ]
+    },
+    {
+        "id": "237d81b3.b2115e",
+        "type": "rpi-gpio out",
+        "z": "8e8224be.d013d8",
+        "name": "Valve Suction GPIO 19",
+        "pin": "35",
+        "set": true,
+        "level": "1",
+        "freq": "",
+        "out": "out",
+        "x": 1083,
+        "y": 96,
+        "wires": []
+    },
+    {
+        "id": "6eb63e9a.3a92e",
+        "type": "ui_button",
+        "z": "8e8224be.d013d8",
+        "name": "Pool",
+        "group": "21374f4d.e46ba",
+        "order": 1,
+        "width": "0",
+        "height": "0",
+        "passthru": false,
+        "label": "Pool",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "{{poolcolor}}",
+        "icon": "",
+        "payload": "pool",
+        "payloadType": "str",
+        "topic": "",
+        "x": 200,
+        "y": 91,
+        "wires": [
+            [
+                "1acb8027.35eb7"
+            ]
+        ]
+    },
+    {
+        "id": "9cae5269.a1bf4",
+        "type": "rpi-gpio out",
+        "z": "8e8224be.d013d8",
+        "name": "Valve Return GPIO 26",
+        "pin": "37",
+        "set": true,
+        "level": "1",
+        "freq": "",
+        "out": "out",
+        "x": 1100,
+        "y": 271,
+        "wires": []
+    },
+    {
+        "id": "11cda09a.a2c46f",
+        "type": "ui_button",
+        "z": "8e8224be.d013d8",
+        "name": "Spa",
+        "group": "21374f4d.e46ba",
+        "order": 3,
+        "width": "0",
+        "height": "0",
+        "passthru": false,
+        "label": "Spa",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "{{spacolor}}",
+        "icon": "",
+        "payload": "spa",
+        "payloadType": "str",
+        "topic": "",
+        "x": 204,
+        "y": 167,
+        "wires": [
+            [
+                "1acb8027.35eb7"
+            ]
+        ]
+    },
+    {
+        "id": "2eda9a2d.94cf76",
+        "type": "ui_button",
+        "z": "8e8224be.d013d8",
+        "name": "Waterfall",
+        "group": "21374f4d.e46ba",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Waterfall",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "{{waterfallcolor}}",
+        "icon": "",
+        "payload": "waterfall",
+        "payloadType": "str",
+        "topic": "",
+        "x": 212,
+        "y": 247,
+        "wires": [
+            [
+                "1acb8027.35eb7"
+            ]
+        ]
+    },
+    {
+        "id": "1acb8027.35eb7",
+        "type": "function",
+        "z": "8e8224be.d013d8",
+        "name": "router",
+        "func": "const payload = msg.payload;\n\nif(payload === \"spa\"){\n    return [{payload: 0}, {payload: 0}, {poolcolor: \"\", spacolor: \"grey\", \"waterfallcolor\": \"\"}]\n}else if(payload === \"waterfall\"){\n    return [{payload: 1}, {payload: 0}, {poolcolor: \"\", spacolor: \"\", \"waterfallcolor\": \"grey\"}]\n}else{\n   return [{payload: 1}, {payload: 1}, {poolcolor: \"grey\", spacolor: \"\", \"waterfallcolor\": \"\"}] \n}",
+        "outputs": 3,
+        "noerr": 0,
+        "x": 700,
+        "y": 188,
+        "wires": [
+            [
+                "237d81b3.b2115e"
+            ],
+            [
+                "9cae5269.a1bf4"
+            ],
+            [
+                "2eda9a2d.94cf76",
+                "11cda09a.a2c46f",
+                "6eb63e9a.3a92e"
+            ]
+        ]
+    },
+    {
+        "id": "72228cb3.029a24",
+        "type": "inject",
+        "z": "9867aa8b.1b4148",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 234,
+        "y": 128,
+        "wires": [
+            [
+                "8d7ed315.3332b"
+            ]
+        ]
+    },
+    {
+        "id": "e1c8188.4b1cee8",
+        "type": "debug",
+        "z": "9867aa8b.1b4148",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 677,
+        "y": 128,
+        "wires": []
+    },
+    {
+        "id": "69a0d660.0e31e8",
+        "type": "sensor-ds18b20",
+        "z": "9867aa8b.1b4148",
+        "name": "",
+        "topic": "",
+        "sensorid": "28-0115639144ff",
+        "timer": "2",
+        "repeat": true,
+        "x": 397,
+        "y": 282,
+        "wires": [
+            [
+                "7484053c.b13abc"
+            ]
+        ]
+    },
+    {
+        "id": "4162aafd.cf7424",
+        "type": "debug",
+        "z": "9867aa8b.1b4148",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 1031,
+        "y": 298,
+        "wires": []
+    },
+    {
+        "id": "7484053c.b13abc",
+        "type": "function",
+        "z": "9867aa8b.1b4148",
+        "name": "Celsius to Fahrenheit",
+        "func": "msg.payload = Math.round(msg.payload * 9 / 5 + 32);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 714,
+        "y": 340,
+        "wires": [
+            [
+                "474b9279.17f5dc",
+                "4162aafd.cf7424"
+            ]
+        ]
+    },
+    {
+        "id": "474b9279.17f5dc",
+        "type": "ui_gauge",
+        "z": "9867aa8b.1b4148",
+        "name": "",
+        "group": "d1d7a2b3.4e57a",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Pool tempreture",
+        "label": "units",
+        "format": "{{value}}",
+        "min": "30",
+        "max": "120",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 1009,
+        "y": 190,
+        "wires": []
+    },
+    {
+        "id": "5db4cb29.110d24",
+        "type": "ui_switch",
+        "z": "d5668fa4.008f6",
+        "name": "Blower",
+        "label": "Blower",
+        "tooltip": "",
+        "group": "d1d7a2b3.4e57a",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "decouple": "false",
+        "topic": "",
+        "style": "",
+        "onvalue": "0",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "1",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "x": 125,
+        "y": 642,
+        "wires": [
+            [
+                "b7fe40a6.5099c"
+            ]
+        ]
+    },
+    {
+        "id": "b7fe40a6.5099c",
+        "type": "rpi-gpio out",
+        "z": "d5668fa4.008f6",
+        "name": "Blower GPIO 13",
+        "pin": "33",
+        "set": true,
+        "level": "1",
+        "freq": "",
+        "out": "out",
+        "x": 371,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "8d7ed315.3332b",
+        "type": "rpi-ds18b20",
+        "z": "9867aa8b.1b4148",
+        "topic": "",
+        "array": true,
+        "name": "",
+        "x": 429,
+        "y": 132,
+        "wires": [
+            [
+                "e1c8188.4b1cee8"
+            ]
+        ]
+    }
+]
