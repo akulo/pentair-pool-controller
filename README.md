@@ -35,6 +35,8 @@ Parts:
 1. [1/4 in. x 1/4 in. MIP Lead-Free Brass Hose Barb Adapter](https://www.homedepot.com/p/Everbilt-1-2-in-MIP-x-1-4-in-FIP-Lead-Free-Brass-Pipe-Hex-Bushing-802639/207176802)
 1. [J-B Weld](https://www.homedepot.com/p/J-B-Weld-25-ml-ClearWeld-Quick-Set-Epoxy-Syringe-50112/204986141)
 
+### FireTablet wall controller
+
 ### Breadboard and Schematic
 ![Pentair Pool Breadboard](/Fritzing/Pool-Controller_bb.png)
 ![Pentair Pool Schematic](/Fritzing/Pool-Controller_schem.png)
