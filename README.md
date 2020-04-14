@@ -36,6 +36,7 @@ Parts:
 1. [J-B Weld](https://www.homedepot.com/p/J-B-Weld-25-ml-ClearWeld-Quick-Set-Epoxy-Syringe-50112/204986141)
 
 ### FireTablet wall controller
+![Wall Unit](/images/wall-unit.jpg)
 
 ### Breadboard and Schematic
 ![Pentair Pool Breadboard](/Fritzing/Pool-Controller_bb.png)
